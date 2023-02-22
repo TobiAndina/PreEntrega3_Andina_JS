@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.logo {
+    width: 15rem;
+}
+
+.img-portadas-especificas {
+    width: 100%;
+    max-height: 50%;
+    object-fit: cover;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.producto {
+    transition-duration: 0.2s;
+    width: 18rem;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.disabled {
+    display: none;
+}
+
+.tienda-menu {
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+footer {
+    padding: 20px;
+}
+
+footer .redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer .redes .icon {
+    width: 48px;
+    height: 48px;
+    margin: 20px;
+}
+
+.scale {
+    transition: all 3s;
+}
+
+.facebook:hover,
+.instagram:hover,
+.youtube:hover,
+.twitter:hover {
+    transform: scale(1.25);
+}

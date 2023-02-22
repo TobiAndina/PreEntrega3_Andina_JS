@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chamalai</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body class="bg-dark">
+    <header>
+        <nav class="navbar bg-dark">
+            <div class="container d-flex flex-wrap">
+                <img src="img/logo.png" class="logo" alt="logo" />
+                <ul class="d-flex flex-column mb-0">
+                    <li class="m-3 list-item">
+                        <button type="button" class="btn btn-outline-dark boton-menu boton-categoria active tienda-menu" id="todos">
+                            Tienda online
+                        </button>
+                    </li>
+                </ul>
+
+                <a class="btn bg-light boton-menu" href="./pages/carrito.html">
+                    <i class="bi bi-carrito"></i>
+                    <span class="numerito" id="numero-carrito"> 0 </span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container my-3">
+            <h2 id="titulo-principal" class="titulo-principal bg-dark text-center text-uppercase p-4">
+                Todos los productos
+            </h2>
+            <div class="contenedor-productos d-flex justify-content-evenly flex-wrap text-dark" id="contenedor-productos">
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark scale row m-3">
+        <p class="text-center">Chamalai Surfboards</p>
+        <div class="redes col-lg-12 col-md-12 col-sm-12">
+
+            <a href="https://www.facebook.com/tobias.andina3/" target="_blank"><img class="icon facebook"
+                    src="./img/iconfacebook.svg" alt="logo facebook"></a>
+            <a href="https://www.instagram.com/tobiandina/" target="_blank"><img class="icon instagram"
+                    src="./img/iconinstagram.svg" alt="logo instagram"></a>
+            <a href="https://www.youtube.com/channel/UCzooQkXpxsIzM3_aydbgcGA" target="_blank"><img class="icon youtube"
+                    src="./img/iconyoutube.svg" alt="logo youtube"></a>
+            <a href="https://twitter.com/TobiAndina" target="_blank"><img class="icon twitter" src="./img/icontwitter.svg"
+                    alt="logo twitter"></a>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+    <script src="js/stock.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
